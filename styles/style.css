@@ -1,0 +1,1572 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200;400&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  font-family: "Anton", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------HEADER----- */
+
+header nav {
+  background-color: #fdddaa;
+
+  height: 30%;
+}
+
+header {
+  background-color: #cdb2cb;
+
+  height: 5%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  color: black;
+  font-size: 1rem;
+}
+
+.contenedorHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedorHeader a {
+  width: 20%;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.contenedorHeader img {
+  width: 100%;
+
+  object-fit: cover;
+}
+
+.contenedorHeader input {
+  display: none;
+}
+
+h1 {
+  color: #fdddaa;
+
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+  letter-spacing: 7px;
+
+  text-align: center;
+
+  padding-right: 26%;
+}
+
+/* -------MAIN------- */
+
+h2 {
+  text-align: center;
+  font-size: 1rem;
+
+  background-color: #fdddaa;
+
+  padding: 10px;
+}
+
+.seccionTrending__h2 {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+#seccionCategorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-image: url(../img/seccionCategorias-wallpaper.jpg);
+}
+
+#seccionCategorias article {
+  width: 20%;
+  padding: 0px 10px;
+  margin: 20px;
+
+  border-radius: 10px;
+
+  background-color: white;
+}
+
+#seccionCategorias article h3 {
+  font-size: 0.7rem;
+
+  text-align: center;
+}
+
+#seccionCategorias img {
+  width: 100%;
+}
+
+.seccionCategorias__vestidos {
+  box-shadow: 0px 0px 15px 0px #e6da78;
+}
+
+.seccionCategorias__pijamas {
+  box-shadow: 0px 0px 15px 0px #69b472;
+}
+
+.seccionCategorias__zapatos {
+  box-shadow: 0px 0px 15px 0px #172872;
+}
+
+.seccionCategorias__conjuntos {
+  box-shadow: 0px 0px 15px 0px #ecb4c6;
+}
+
+#seccionProductosDestacados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+
+  background-image: url(../img/azul-pastel-background.jpg);
+}
+
+#seccionProductosDestacados article {
+  width: 20%;
+  padding: 0px 10px;
+  margin: 10px 10px 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  background-color: white;
+
+  border: solid 2px black;
+}
+
+#seccionProductosDestacados img {
+  width: 100%;
+}
+
+#seccionProductosDestacados article h4 {
+  font-size: 0.8rem;
+}
+
+#seccionProductosDestacados article span {
+  font-size: 0.7rem;
+}
+
+#seccionProductosDestacados article a {
+  font-size: 0.7rem;
+
+  border: solid 1px black;
+  padding: 2px;
+}
+
+#seccionTrending {
+  background-image: url(../img/skyblue-background.jpg);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#seccionTrending article {
+  width: 60%;
+  padding: 20px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid black;
+  border-radius: 10px;
+
+  background-color: white;
+}
+
+#seccionTrending img {
+  width: 100%;
+  padding: 10px;
+}
+
+#seccionTrending a {
+  border: solid 1px black;
+  border-radius: 5px;
+
+  padding: 2px;
+  margin: 5px;
+
+  color: black;
+}
+
+/* -----VESTIDOS.HTML------- */
+
+#seccionVestidos {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
+}
+
+.seccionVestidos__contenedor--main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#seccionVestidos h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #363739;
+}
+
+#seccionVestidos article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+
+  border: solid 3px black;
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px;
+  width: 150px;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+}
+
+#seccionVestidos img {
+  width: 80%;
+  padding: 10px;
+
+  object-fit: cover;
+}
+
+#seccionVestidos article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.seccionVestidos__contenedor--2 {
+  background-color: orange;
+}
+
+.seccionVestidos__contenedor--2 h3 {
+  background-color: #fdddaa;
+
+  padding: 8px;
+}
+
+/* ------PIJAMAS.HTML------- */
+
+#seccionGenero {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
+  background-size: auto;
+}
+
+#seccionGenero h2 {
+  text-align: center;
+
+  padding: 0px 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  -webkit-text-stroke: 0.3px black;
+  color: #fdddaa;
+  letter-spacing: 1px;
+}
+
+#seccionGenero div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#seccionGenero article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  overflow: hidden;
+
+  margin: 20px 15px;
+  padding: 0px;
+
+  width: 22%;
+  height: 60%;
+
+  background-color: white;
+}
+
+.seccionGenero__articulo--nene h3 {
+  font-size: 1rem;
+
+  -webkit-text-stroke: 0.001px #544db3a9;
+  color: black;
+}
+
+.seccionGenero__articulo--nena h3 {
+  font-size: 1rem;
+
+  -webkit-text-stroke: 0.001px #d06f9bb1;
+  color: black;
+}
+
+#seccionGenero article img {
+  width: 100%;
+  padding: 10px;
+
+  object-fit: cover;
+}
+
+.seccionGenero__boton--verMas {
+  border: solid 1px black;
+
+  width: 80%;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+.seccionGenero__boton--verMas:hover {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
+
+  background-size: cover;
+}
+
+.seccionGenero__nene {
+  box-shadow: 0px 0px 15px 0px #544db3;
+}
+
+.seccionGenero__nena {
+  box-shadow: 0px 0px 15px 0px #d06f9b;
+}
+
+/* SECCION PIJAMAS NENE */
+
+#seccionPijamasNene {
+  background-image: url("../img/azul-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionPijamasNene h2 {
+  text-align: center;
+
+  padding: 15px 0;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionPijamasNene div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#seccionPijamasNene article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: solid 3px black;
+  border-radius: 20px;
+
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionPijamasNene article img {
+  width: 110px;
+  padding: 10px;
+
+  object-fit: cover;
+}
+
+#seccionPijamasNene article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionPijamasNene .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* SECCION PIJAMAS NENA */
+
+#seccionPijamasNena {
+  background-image: url("../img/rosa-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionPijamasNena h2 {
+  text-align: center;
+
+  padding: 15px 0;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionPijamasNena div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#seccionPijamasNena article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: solid 3px black;
+  border-radius: 20px;
+
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionPijamasNena article img {
+  width: 110px;
+  padding: 10px;
+
+  object-fit: cover;
+}
+
+#seccionPijamasNena article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionPijamasNena .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* SECCION PIJAMAS UNISEX */
+
+#seccionPijamasUnisex {
+  background-image: url("../img/verde-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionPijamasUnisex h2 {
+  text-align: center;
+
+  padding: 15px 0;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionPijamasUnisex div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#seccionPijamasUnisex article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: solid 3px black;
+  border-radius: 20px;
+
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionPijamasUnisex article img {
+  width: 110px;
+  padding: 10px;
+
+  object-fit: cover;
+}
+
+#seccionPijamasUnisex article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionPijamasUnisex .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* -------ZAPATOS.HTML------- */
+
+#seccionZapatosNene {
+  height: 750px;
+
+  background-image: url("../img/azul-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionZapatosNene div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionZapatosNene h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionZapatosNene article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px 25px;
+
+  width: 20%;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionZapatosNene .seccionZapatosNene__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionZapatosNene img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionZapatosNene article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionZapatosNene article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionZapatosNene .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*  SECCION ZAPATOS NENA */
+
+#seccionZapatosNena {
+  height: 750px;
+
+  background-image: url("../img/rosa-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionZapatosNena div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionZapatosNena h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionZapatosNena article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px 30px;
+
+  width: 20%;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionZapatosNena .seccionZapatosNena__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionZapatosNena img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionZapatosNena article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionZapatosNena article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionZapatosNena .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* --------CONJUNTOS.HTML------- */
+
+#seccionConjuntosNene {
+  height: 450px;
+
+  background-image: url("../img/azul-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionConjuntosNene div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionConjuntosNene h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionConjuntosNene article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px 30px;
+
+  width: 20%;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionConjuntosNene .seccionConjuntosNene__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionConjuntosNene img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionConjuntosNene article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionConjuntosNene article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionConjuntosNene .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* SECCION CONJUNTOS NENA */
+
+#seccionConjuntosNena {
+  height: 450px;
+
+  background-image: url("../img/rosa-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionConjuntosNena div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionConjuntosNena h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionConjuntosNena article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px 30px;
+
+  width: 20%;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionConjuntosNena .seccionConjuntosNena__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionConjuntosNena img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionConjuntosNena article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionConjuntosNena article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionConjuntosNena .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* -----NOSOTROS.HTML------- */
+
+#seccionNosotros {
+  background-image: url("../img/verde-pastel-background.jpg");
+
+  height: 520px;
+}
+
+#seccionNosotros h2 {
+  padding: 20px 10px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+}
+
+#seccionNosotros p {
+  padding-left: 15px;
+  margin-top: 100px;
+
+  font-size: 1.2rem;
+}
+
+/* ------CONTACTO.HTML------- */
+
+#seccionContacto {
+  background-image: url("../img/verde-pastel-background.jpg");
+}
+
+#seccionContacto h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+
+  padding: 20px;
+}
+
+#seccionContacto label {
+  display: block;
+
+  margin: 5px 0px;
+}
+
+#seccionContacto textarea {
+  display: block;
+
+  margin-bottom: 5px;
+}
+
+#seccionContacto select {
+  margin-bottom: 20px;
+}
+
+#seccionContacto form {
+  margin: 20px 20px 0px;
+}
+
+/* -------SUCURSALES.HTML---------- */
+
+#seccionSucursales {
+  background-image: url("../img/verde-pastel-background.jpg");
+}
+
+#seccionSucursales h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+
+  padding: 20px;
+}
+
+#seccionSucursales iframe {
+  margin: 10px;
+}
+
+.seccionSucursales__contenedorZonas {
+  width: 40%;
+  height: 300px;
+
+  display: inline-block;
+
+  vertical-align: 80px;
+
+  border: solid 1px black;
+
+  overflow: auto;
+}
+
+.seccionSucursales__contenedorZonas div {
+  width: 300px;
+}
+
+#seccionSucursales p {
+  margin: 35px 10px;
+}
+
+/* ------PROMOCIONES.HTML------- */
+
+#seccionPromociones {
+  background-image: url("../img/skyblue-background.jpg");
+  background-size: cover;
+
+  height: 1800px;
+}
+
+#seccionPromociones div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionPromociones h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #363739;
+}
+
+#seccionPromociones article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionPromociones img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionPromociones article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionPromociones article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionPromociones .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(42, 37, 37);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-box1 a {
+  color: white;
+}
+
+.footer-box1,
+.footer-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  color: white;
+}
+
+.display-none {
+  display: none;
+}
+
+footer i {
+  font-size: 1.4rem;
+}
+
+/* ----------MEDIA-QUERIES-------- */
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  /* -------HEADER--------- */
+
+  h1 {
+    font-size: 4rem;
+    padding: 0;
+    margin-right: 15%;
+  }
+
+  header nav ul li a {
+    font-size: 1.23rem;
+    font-weight: bold;
+  }
+
+  .contenedorHeader a img {
+    width: 100%;
+  }
+
+  /* ----INDEX.HTML---- */
+
+  /* ----------MAIN------------ */
+
+  #index-main {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    grid-template-areas: "categorias productos";
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  #seccionCategorias {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    height: calc(100% - 42px);
+    width: 100%;
+  }
+
+  #seccionCategorias article {
+    width: 60%;
+
+    margin: 10px;
+    padding: 0px;
+  }
+
+  #seccionCategorias article img {
+    width: 80%;
+
+    margin-left: 19px;
+  }
+
+  #seccionCategorias article h3 {
+    font-size: 1rem;
+  }
+
+  #seccionTrending {
+    width: 100%;
+    height: calc(100% - 42px);
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #seccionTrending article {
+    padding: 0;
+    overflow: hidden;
+
+    justify-content: center;
+  }
+
+  #seccionTrending img {
+    width: 200px;
+  }
+
+  #seccionTrending article a {
+    height: 20%;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  #seccionProductosDestacados {
+    height: calc(100% - 41px);
+
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
+  #seccionProductosDestacados article {
+    justify-content: center;
+
+    width: 30%;
+    height: fit-content;
+  }
+
+  #seccionProductosDestacados article a {
+    margin-bottom: 5px;
+
+    text-align: center;
+  }
+
+  #seccionProductosDestacados article h4 {
+    font-size: 1rem;
+  }
+
+  #seccionProductosDestacados article span {
+    font-size: 0.9rem;
+
+    font-weight: bold;
+  }
+
+  .primer-seccion {
+    grid-area: categorias;
+  }
+
+  .segunda-seccion {
+    grid-area: productos;
+  }
+
+  /* -------VESTIDOS.HTML--------- */
+
+  .seccionVestidos__contenedor--main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "articulos1"
+      "articulos2";
+  }
+
+  .seccionVestidos__contenedor--1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .seccionVestidos__contenedor--2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* ------FOOTER-------- */
+
+  footer span {
+    font-size: 1rem;
+
+    text-align: center;
+  }
+
+  .div-caja1 {
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  /* GRID */
+
+  #index-body {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 200px 1fr auto;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer aside";
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  #index-main {
+    grid-area: main;
+  }
+
+  #seccionTrending {
+    grid-area: aside;
+
+    justify-content: space-between;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  /*--------HEADER-------- */
+
+  h1 {
+    font-size: 6rem;
+
+    padding-right: 5%;
+  }
+
+  header {
+    height: 100%;
+  }
+
+  header nav {
+    height: 18%;
+  }
+
+  header nav ul {
+    justify-content: start;
+  }
+
+  header nav ul li a {
+    font-size: 1.2rem;
+
+    padding: 0px 20px;
+  }
+
+  .nav-head {
+    color: #cdb2cb;
+  }
+
+  header nav ul li a:hover {
+    animation: move 3s ease-in-out none;
+    color: #cdb2cb;
+  }
+
+  .contenedorHeader {
+    height: calc(100% - 14%);
+  }
+
+  .contenedorHeader a {
+    width: 15%;
+  }
+
+  .contenedorHeader a img {
+    width: 100%;
+  }
+
+  .contenedorHeader input {
+    display: inline-block;
+
+    width: 30%;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+
+    25% {
+      font-size: 1.8rem;
+    }
+
+    75% {
+      text-decoration: bold;
+    }
+  }
+
+  /* --------MAIN--------- */
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  #seccionTrending {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #seccionTrending article {
+    justify-content: space-between;
+
+    height: 40%;
+    padding: 30px;
+  }
+
+  #seccionCategorias {
+    flex-wrap: nowrap;
+
+    align-items: center;
+  }
+
+  #seccionCategorias article {
+    height: 70%;
+
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #seccionCategorias article h3 {
+    font-size: 1.5rem;
+  }
+
+  #seccionProductosDestacados {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
+  #seccionProductosDestacados article {
+    justify-content: center;
+  }
+
+  #seccionProductosDestacados article img {
+    height: 80px;
+    width: 80px;
+
+    align-self: center;
+
+    object-fit: cover;
+  }
+
+  #seccionProductosDestacados article h4 {
+    font-size: 1rem;
+
+    text-align: center;
+  }
+
+  #seccionProductosDestacados article span {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    text-align: center;
+  }
+
+  #seccionProductosDestacados article a {
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+
+    height: 30px;
+    margin: 10px;
+  }
+
+  /* -----VESTIDOS.HTML------- */
+
+  #seccionVestidos article {
+    width: 20%;
+  }
+
+  .seccionVestidos__contenedor--main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "articulos1"
+      "articulos2";
+  }
+
+  .seccionVestidos__contenedor--1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .seccionVestidos__contenedor--2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* PIJAMAS.HTML */
+
+  #pijamas-main {
+    display: grid;
+    grid-template-rows: 1fr 2.7fr 0.6fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "genero genero"
+      "nene nena"
+      "unisex unisex";
+  }
+
+  #seccionGenero {
+    grid-area: genero;
+
+    height: fit-content;
+  }
+
+  #seccionPijamasNene {
+    grid-area: nene;
+  }
+
+  #seccionPijamasNena {
+    grid-area: nena;
+  }
+
+  #seccionPijamasUnisex {
+    grid-area: unisex;
+
+    height: fit-content;
+  }
+
+  /* -----------FOOTER---------- */
+
+  .display-none {
+    display: inline-block;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  footer a {
+    color: white;
+  }
+
+  footer a:hover {
+    background-color: grey;
+  }
+
+  .footer-box1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    width: 100%;
+
+    font-size: 1.2rem;
+  }
+
+  .footer-box1 div {
+    border-right: 3px solid white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-right: 20px;
+  }
+
+  .footer-box1 div span {
+    display: inline-block;
+  }
+
+  .footer-box2 {
+    justify-content: space-between;
+  }
+
+  .footer-box2 span {
+    text-align: center;
+  }
+}
