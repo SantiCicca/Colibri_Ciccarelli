@@ -93,6 +93,10 @@ aside {
   object-fit: cover;
 }
 
+#seccionContacto form input {
+  width: 30%;
+}
+
 /* -----VESTIDOS.HTML------- */
 
 #seccionVestidos {
@@ -846,5 +850,11 @@ footer i {
 
   .footer-box2 span {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #seccionContacto form input {
+    width: 200px;
   }
 }
