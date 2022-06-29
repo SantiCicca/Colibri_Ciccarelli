@@ -47,7 +47,7 @@ header nav ul {
 
 header nav ul li a {
   color: black;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .contenedorHeader {
@@ -110,7 +110,7 @@ h3 {
 #seccionCategorias {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   background-image: url(../img/seccionCategorias-wallpaper.jpg);
 }
