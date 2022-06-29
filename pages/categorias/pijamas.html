@@ -1,351 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <title>Pijamas</title>
-    <link rel="stylesheet" href="../../styles/style.css" />
-    
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../../styles/bootstrap.css">
+  <title>Pijamas</title>
+  <link rel="stylesheet" href="../../styles/style.css" />
 
-    <!---------HEADER--------->
+</head>
 
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="../../index.html" class="nav-head">Inicio</a>
-          </li>
-          <li>
-            <a href="../sucursales.html">Sucursales</a>
-          </li>
-          <li>
-            <a href="../promociones.html">Promociones</a>
-          </li>
-          <li>
-            <a href="../nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a href="../contactanos.html">Contactanos</a>
-          </li>
-        </ul>
+<body>
+
+  <!---------HEADER--------->
+
+  <header>
+
+    <div>
+      <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html"><img src="../../img/logofalso3.png" alt="logo en navbar"
+              class="w-25"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-4 active" href="../../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" aria-current="page" href="../nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="../sucursales.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="../contactanos.html">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="../promociones.html">Promociones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+    </div>
 
-      <div class="contenedorHeader">
-        <a href="../../index.html">
-          <img src="../../img/logofalso3.png" alt="" />
-        </a>
-        <h1>COLIBRÍ</h1>
+    <div class="d-flex align-items-center justify-content-center">
+      <h1>COLIBRÍ</h1>
+    </div>
+  </header>
 
-        <input type="search" placeholder="Buscá tu producto" />
+  <!-- MAIN -->
+
+  <main id="pijamas-main">
+
+    <section id="seccionGenero">
+      <h2>GENERO</h2>
+
+      <div>
+        <article class="seccionGenero__articulo--nene">
+          <h3>NENE</h3>
+          <img src="../../img/genero-nene.jpg" alt="" />
+          <a href="#seccionPijamasNene" class="seccionGenero__boton--verMas">Ver más</a>
+        </article>
+
+        <article class="seccionGenero__articulo--unisex">
+          <h3>UNISEX</h3>
+          <img src="../../img/genero-unisex.jpg" alt="" />
+          <a href="#seccionPijamasUnisex" class="seccionGenero__boton--verMas">Ver más</a>
+        </article>
+
+        <article class="seccionGenero__articulo--nena">
+          <h3>NENA</h3>
+          <img src="../../img/genero-nena.jpg" alt="" />
+          <a href="#seccionPijamasNena" class="seccionGenero__boton--verMas">Ver más</a>
+        </article>
       </div>
-    </header>
+    </section>
 
-    <!-- MAIN -->
+    <section id="seccionPijamasNene">
+      <h2>NENE</h2>
 
-    <main id="pijamas-main">
-
-      <section id="seccionGenero">
-        <h2>GENERO</h2>
-
-        <div>
-          <article class="seccionGenero__articulo--nene">
-            <h3>NENE</h3>
-            <img src="../../img/genero-nene.jpg" alt="" />
-            <a href="#seccionPijamasNene" class="seccionGenero__boton--verMas"
-              >Ver más</a
-            >
+      <div class="seccionPijamasNene__contenedorImagenes">
+        <div class="seccionPijamasNene__caja1">
+          <article class="seccionPijamasNene__articulo1">
+            <img src="../../img/pijama-nene1.jpg" alt="Pijama de oso celeste" />
+            <h4>SkyBlue Bear Pajama</h4>
+            <span><span class="precioTachado">$ 42.00</span> - $ 32.00</span>
+            <a href="">Comprar</a>
           </article>
 
-          <article class="seccionGenero__articulo--unisex">
-            <h3>UNISEX</h3>
-            <img src="../../img/genero-unisex.jpg" alt="" />
-            <a href="#seccionPijamasUnisex" class="seccionGenero__boton--verMas"
-              >Ver más</a
-            >
-          </article>
-
-          <article class="seccionGenero__articulo--nena">
-            <h3>NENA</h3>
-            <img src="../../img/genero-nena.jpg" alt="" />
-            <a href="#seccionPijamasNena" class="seccionGenero__boton--verMas"
-              >Ver más</a
-            >
+          <article class="seccionPijamasNene__articulo2">
+            <img src="../../img/pijama-nene2.jpg" alt="Pijama azul con osos bebe dentro" />
+            <h4>Baby Bear Pajama</h4>
+            <span>$ 40.00</span>
+            <a href="">Comprar</a>
           </article>
         </div>
-      </section>
+        <div class="seccionPijamasNene__caja2">
+          <article class="seccionPijamasNene__articulo3">
+            <img src="../../img/pijama-nene3.jpg" alt="Pijama de Woody" />
+            <h4>Sheriff Woody</h4>
+            <span span>$ 45.00</span>
+            <a href="">Comprar</a>
+          </article>
 
-      <section id="seccionPijamasNene">
-        <h2>NENE</h2>
-
-        <div class="seccionPijamasNene__contenedorImagenes">
-          <div class="seccionPijamasNene__caja1">
-            <article class="seccionPijamasNene__articulo1">
-              <img src="../../img/pijama-nene1.jpg" alt="Pijama de oso celeste" />
-              <h4>SkyBlue Bear Pajama</h4>
-              <span><span class="precioTachado">$ 42.00</span> - $ 32.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNene__articulo2">
-              <img src="../../img/pijama-nene2.jpg" alt="Pijama azul con osos bebe dentro" />
-              <h4>Baby Bear Pajama</h4>
-              <span>$ 40.00</span>
-              <a href="">Comprar</a>
-            </article>
-          </div>
-          <div class="seccionPijamasNene__caja2">
-            <article class="seccionPijamasNene__articulo3">
-              <img src="../../img/pijama-nene3.jpg" alt="Pijama de Woody" />
-              <h4>Sheriff Woody</h4>
-              <span span>$ 45.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNene__articulo4">
-              <img src="../../img/pijama-nene4.jpg" alt="Pijama blanco con azul" />
-              <h4>Blue and white Pajama</h4>
-              <span><span class="precioTachado">$ 47.00</span> - $ 42.00</span>
-              <a href="">Comprar</a>
-            </article>
-          </div>
-          <div class="seccionPijamasNene__caja3">
-            <article class="seccionPijamasNene__articulo5">
-              <img src="../../img/pijama-nene5.jpg" alt="Pijama con stickers" />
-              <h4>Stickers Pajama</h4>
-              <span>$ 50.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNene__articulo6">
-              <img src="../../img/pijama-nene6.jpg" alt="Pijama color blanco y beige" />
-              <h4>Beige and white Pajama</h4>
-              <span>$ 50.00</span>
-              <a href="">Comprar</a>
-            </article>
-          </div>
-          <div class="seccionPijamasNene__caja4">
-            <article class="seccionPijamasNene__articulo7">
-              <img
-              src="../../img/pijama-nene7.jpg"
-              alt="Pijama de Vaca"
-              />
-              <h4>Muu Pajama</h4>
-              <span>$ 52.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNene__articulo8">
-              <img src="../../img/tucan-shirt.jpg" alt="Remera con tucánes" />
-              <h4>Toucan Shirt</h4>
-              <span><span class="precioTachado">$ 55.00</span> - $ 50.00</span>
-              <a href="">Comprar</a>
-            </article>
-          </div>
+          <article class="seccionPijamasNene__articulo4">
+            <img src="../../img/pijama-nene4.jpg" alt="Pijama blanco con azul" />
+            <h4>Blue and white Pajama</h4>
+            <span><span class="precioTachado">$ 47.00</span> - $ 42.00</span>
+            <a href="">Comprar</a>
+          </article>
         </div>
-      </section>
+        <div class="seccionPijamasNene__caja3">
+          <article class="seccionPijamasNene__articulo5">
+            <img src="../../img/pijama-nene5.jpg" alt="Pijama con stickers" />
+            <h4>Stickers Pajama</h4>
+            <span>$ 50.00</span>
+            <a href="">Comprar</a>
+          </article>
 
-      <section id="seccionPijamasNena">
-        <h2>Nena</h2>
-
-        <div class="seccionPijamasNena__contenedorImagenes">
-
-          <div class="seccionPijamasNena__caja1">
-
-            <article class="seccionPijamasNena__articulo1">
-              <img src="../../img/pijama-nena1.jpg" alt="Pijama con conejos rosa" />
-              <h4>Bunny Pink Pajama</h4>
-              <span><span class="precioTachado">$ 45.00</span> - $ 35.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNena__articulo2">
-              <img src="../../img/pijama-nena2.jpg" alt="Pijama blanco y rosa" />
-              <h4>Pink and White Pajama</h4>
-              <span>$ 45.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>
-
-          <div class="seccionPijamasNena__caja2">
-
-            <article class="seccionPijamasNena__articulo3">
-              <img src="../../img/pijama-nena3.jpg" alt="Pijama amarillo con sandias" />
-              <h4>WaterMelon Pajama</h4>
-              <span>$ 42.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNena__articulo4">
-              <img src="../../img/pijama-nena4.jpg" alt="Pijama blanco con corazones" />
-              <h4>Hearts Pajama</h4>
-              <span><span class="precioTachado">$ 50.00</span> - $ 48.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>
-
-          <div class="seccionPijamasNena__caja3">
-            
-            <article class="seccionPijamasNena__articulo5">
-              <img src="../../img/pijama-nena5.jpg" alt="Pijama rosa con tiras blancas" />
-              <h4>Pink Lines Pajama</h4>
-              <span>$ 45.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNena__articulo6">
-              <img src="../../img/pijama-nene6.jpg" alt="Pijama de gato" />
-              <h4>cat's Pajama</h4>
-              <span>$ 42.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>
-
-          <div class="seccionPijamasNena__caja4">
-
-            <article class="seccionPijamasNena__articulo7">
-              <img
-              src="../../img/pijama-nena7.jpg"
-              alt="Pijama rosa con personitas"
-              />
-              <h4>Super Pink Pajama</h4>
-              <span>$ 47.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasNena__articulo8">
-              <img src="../../img/pijama-nena8.jpg" alt="Pijama con logo love" />
-              <h4>Love Pajama</h4>
-              <span><span class="precioTachado">$ 45.00</span> - $ 40.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>
-
+          <article class="seccionPijamasNene__articulo6">
+            <img src="../../img/pijama-nene6.jpg" alt="Pijama color blanco y beige" />
+            <h4>Beige and white Pajama</h4>
+            <span>$ 50.00</span>
+            <a href="">Comprar</a>
+          </article>
         </div>
-      </section>
+        <div class="seccionPijamasNene__caja4">
+          <article class="seccionPijamasNene__articulo7">
+            <img src="../../img/pijama-nene7.jpg" alt="Pijama de Vaca" />
+            <h4>Muu Pajama</h4>
+            <span>$ 52.00</span>
+            <a href="">Comprar</a>
+          </article>
 
-      <section id="seccionPijamasUnisex">
-        <h2>UNISEX</h2>
-
-        <div class="seccionPijamasUnisex__contenedorImagenes">
-
-          <div class="seccionPijamasNena__caja1">
-            <article class="seccionPijamasUnisex__articulo1">
-              <img src="../../img/pijama-unisex3.jpg" alt="Pijama blanco de oso" />
-              <h4>Bear white Pajama</h4>
-              <span><span class="precioTachado">$ 45.00</span> - $ 35.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasUnisex__articulo2">
-              <img src="../../img/pijama-unisex4.jpg" alt="Pijama blanco" />
-              <h4>White Pajama</h4>
-              <span>$ 30.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>  
-
-          <div class="seccionPijamasNena__caja2">
-
-            <article class="seccionPijamasUnisex__articulo3">
-              <img src="../../img/pijama-unisex5.jpg" alt="Pijama con orejas azul" />
-              <h4>Blue Ears Pajama</h4>
-              <span>$ 40.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasUnisex__articulo4">
-              <img src="../../img/pijama-unisex6.jpg" alt="Pijama rojo" />
-              <h4>Red Pajama</h4>
-              <span><span class="precioTachado">$ 40.00</span> - $ 38.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>
-
-          <div class="seccionPijamasNena__caja3">
-
-            <article class="seccionPijamasUnisex__articulo5">
-              <img src="../../img/pijama-unisex7.jpg" alt="Pijama de snubes" />
-              <h4>Cloud Pajama</h4>
-              <span>$ 32.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-            <article class="seccionPijamasUnisex__articulo6">
-              <img src="../../img/pijama-unisex8.jpg" alt="Pijama amarillo" />
-              <h4>Yellow Pajama</h4>
-              <span>$ 43.00</span>
-              <a href="">Comprar</a>
-            </article>
-
-          </div>
-
-      </section>
-    </main>
-
-<!---------FOOTER--------->
-
-    <footer>
-      <div class="footer-box1">
-        <div>
-          <span>Acerca Dé</span>
-          <span class="display-none">Políticas de privacidad</span>
-          <span class="display-none">Términos y condiciones</span>
-        </div>
-        <div>
-          <span>Ayuda</span>
-          <span class="display-none">¿Como comprar?</span>
-          <span class="display-none">Cuenta</span>
-          <span class="display-none">Soporte</span>
-        </div>
-        <div>
-          <a href="../../index.html#seccionCategorias">
-            <span class="">Categorías</span>
-          </a>
-          <a href="./vestidos.html">
-            <span class="display-none">Vestidos</span>
-          </a>
-          <a href="./pijamas.html">
-            <span class="display-none">Pijamas</span>
-          </a>
-          <a href="./zapatos.html">
-            <span class="display-none">Zapatos</span>
-          </a>
-          <a href="./conjuntos.html">
-            <span class="display-none">Conjuntos</span>
-          </a>
+          <article class="seccionPijamasNene__articulo8">
+            <img src="../../img/tucan-shirt.jpg" alt="Remera con tucánes" />
+            <h4>Toucan Shirt</h4>
+            <span><span class="precioTachado">$ 55.00</span> - $ 50.00</span>
+            <a href="">Comprar</a>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="footer-box2">
-        <span>Redes Sociales</span>
-        <a href="https://www.instagram.com/santi_cicca/?hl=es-la" class="logo-ig" target="_blank">
-          <i class="bi-instagram"></i>
-        </a>
-        <a href="https://wa.me/541162091490" class="logo-wsp" target="_blank">
-          <i class="bi-whatsapp"></i>
-        </a>
+    <section id="seccionPijamasNena">
+      <h2>Nena</h2>
 
-        <!-- no tengo cuenta de linkedin por ahora -->
-        <a href="" class="logo-linkedin">
-          <i class="bi-linkedin"></i>
+      <div class="seccionPijamasNena__contenedorImagenes">
+
+        <div class="seccionPijamasNena__caja1">
+
+          <article class="seccionPijamasNena__articulo1">
+            <img src="../../img/pijama-nena1.jpg" alt="Pijama con conejos rosa" />
+            <h4>Bunny Pink Pajama</h4>
+            <span><span class="precioTachado">$ 45.00</span> - $ 35.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasNena__articulo2">
+            <img src="../../img/pijama-nena2.jpg" alt="Pijama blanco y rosa" />
+            <h4>Pink and White Pajama</h4>
+            <span>$ 45.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+        <div class="seccionPijamasNena__caja2">
+
+          <article class="seccionPijamasNena__articulo3">
+            <img src="../../img/pijama-nena3.jpg" alt="Pijama amarillo con sandias" />
+            <h4>WaterMelon Pajama</h4>
+            <span>$ 42.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasNena__articulo4">
+            <img src="../../img/pijama-nena4.jpg" alt="Pijama blanco con corazones" />
+            <h4>Hearts Pajama</h4>
+            <span><span class="precioTachado">$ 50.00</span> - $ 48.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+        <div class="seccionPijamasNena__caja3">
+
+          <article class="seccionPijamasNena__articulo5">
+            <img src="../../img/pijama-nena5.jpg" alt="Pijama rosa con tiras blancas" />
+            <h4>Pink Lines Pajama</h4>
+            <span>$ 45.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasNena__articulo6">
+            <img src="../../img/pijama-nene6.jpg" alt="Pijama de gato" />
+            <h4>cat's Pajama</h4>
+            <span>$ 42.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+        <div class="seccionPijamasNena__caja4">
+
+          <article class="seccionPijamasNena__articulo7">
+            <img src="../../img/pijama-nena7.jpg" alt="Pijama rosa con personitas" />
+            <h4>Super Pink Pajama</h4>
+            <span>$ 47.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasNena__articulo8">
+            <img src="../../img/pijama-nena8.jpg" alt="Pijama con logo love" />
+            <h4>Love Pajama</h4>
+            <span><span class="precioTachado">$ 45.00</span> - $ 40.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="seccionPijamasUnisex">
+      <h2>UNISEX</h2>
+
+      <div class="seccionPijamasUnisex__contenedorImagenes">
+
+        <div class="seccionPijamasNena__caja1">
+          <article class="seccionPijamasUnisex__articulo1">
+            <img src="../../img/pijama-unisex3.jpg" alt="Pijama blanco de oso" />
+            <h4>Bear white Pajama</h4>
+            <span><span class="precioTachado">$ 45.00</span> - $ 35.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasUnisex__articulo2">
+            <img src="../../img/pijama-unisex4.jpg" alt="Pijama blanco" />
+            <h4>White Pajama</h4>
+            <span>$ 30.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+        <div class="seccionPijamasNena__caja2">
+
+          <article class="seccionPijamasUnisex__articulo3">
+            <img src="../../img/pijama-unisex5.jpg" alt="Pijama con orejas azul" />
+            <h4>Blue Ears Pajama</h4>
+            <span>$ 40.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasUnisex__articulo4">
+            <img src="../../img/pijama-unisex6.jpg" alt="Pijama rojo" />
+            <h4>Red Pajama</h4>
+            <span><span class="precioTachado">$ 40.00</span> - $ 38.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+        <div class="seccionPijamasNena__caja3">
+
+          <article class="seccionPijamasUnisex__articulo5">
+            <img src="../../img/pijama-unisex7.jpg" alt="Pijama de snubes" />
+            <h4>Cloud Pajama</h4>
+            <span>$ 32.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+          <article class="seccionPijamasUnisex__articulo6">
+            <img src="../../img/pijama-unisex8.jpg" alt="Pijama amarillo" />
+            <h4>Yellow Pajama</h4>
+            <span>$ 43.00</span>
+            <a href="">Comprar</a>
+          </article>
+
+        </div>
+
+    </section>
+  </main>
+
+  <!---------FOOTER--------->
+
+  <footer>
+    <div class="footer-box1">
+      <div>
+        <span>Acerca Dé</span>
+        <span class="display-none">Políticas de privacidad</span>
+        <span class="display-none">Términos y condiciones</span>
+      </div>
+      <div>
+        <span>Ayuda</span>
+        <span class="display-none">¿Como comprar?</span>
+        <span class="display-none">Cuenta</span>
+        <span class="display-none">Soporte</span>
+      </div>
+      <div>
+        <a href="../../index.html#seccionCategorias">
+          <span class="">Categorías</span>
+        </a>
+        <a href="./vestidos.html">
+          <span class="display-none">Vestidos</span>
+        </a>
+        <a href="./pijamas.html">
+          <span class="display-none">Pijamas</span>
+        </a>
+        <a href="./zapatos.html">
+          <span class="display-none">Zapatos</span>
+        </a>
+        <a href="./conjuntos.html">
+          <span class="display-none">Conjuntos</span>
         </a>
       </div>
-    </footer>
+    </div>
 
+    <div class="footer-box2">
+      <span>Redes Sociales</span>
+      <a href="https://www.instagram.com/santi_cicca/?hl=es-la" class="logo-ig" target="_blank">
+        <i class="bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/541162091490" class="logo-wsp" target="_blank">
+        <i class="bi-whatsapp"></i>
+      </a>
 
-  </body>
+      <!-- no tengo cuenta de linkedin por ahora -->
+      <a href="" class="logo-linkedin">
+        <i class="bi-linkedin"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="../../js/bootstrap.js"></script>
+</body>
+
 </html>
