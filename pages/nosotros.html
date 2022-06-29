@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <title>Nosotros</title>
-    <link rel="stylesheet" href="../styles/style.css" />
-  </head>
 
-  <body>
-    <!---------HEADER--------->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../styles/bootstrap.css">
+  <title>Nosotros</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
 
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="../index.html" class="nav-head">Inicio</a>
-          </li>
-          <li>
-            <a href="./sucursales.html">Sucursales</a>
-          </li>
-          <li>
-            <a href="./promociones.html">Promociones</a>
-          </li>
-          <li>
-            <a href="./nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a href="./contactanos.html">Contactanos</a>
-          </li>
-        </ul>
+<body>
+  <!---------HEADER--------->
+
+  <header>
+
+    <div>
+      <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logofalso3.png" alt="logo en navbar"
+              class="w-25"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 active" aria-current="page" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="./sucursales.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="./contactanos.html">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="./promociones.html">Promociones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      <div class="contenedorHeader">
-        <a href="../index.html">
-          <img src="../img/logofalso3.png" alt="" />
-        </a>
-        <h1>COLIBRÍ</h1>
+    </div>
 
-        <input type="search" placeholder="Buscá tu producto" />
-      </div>
-    </header>
+    <div class="d-flex align-items-center justify-content-center">
+      <h1>COLIBRÍ</h1>
+    </div>
+  </header>
 
-    <!-- MAIN -->
+  <!-- MAIN -->
 
-    <main>
-      <section id="seccionNosotros">
-        <h2>Sobre Nosotros</h2>
+  <main class="bg-warning">
+    <section id="seccionNosotros" class="pt-4">
+      <h2 class="container border-bottom fs-2">Sobre Nosotros</h2>
 
-        <p>
+      <div class="container">
+        <p class="seccionNosotros__text text-center p-5 fs-5">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio fuga,
           eaque quasi iste perferendis distinctio explicabo dolor iure, animi
           nihil voluptas voluptatem corrupti. Odio sint, quis at illum error
@@ -75,59 +86,72 @@
           amet. In, delectus! Illum dolores dicta, mollitia quae tempora
           recusandae quisquam nobis voluptate vero ad unde nesciunt adipisci!
         </p>
-      </section>
-    </main>
-
-    <!---------FOOTER--------->
-
-    <footer>
-      <div class="footer-box1">
-        <div>
-          <span>Acerca Dé</span>
-          <span class="display-none">Políticas de privacidad</span>
-          <span class="display-none">Términos y condiciones</span>
-        </div>
-        <div>
-          <span>Ayuda</span>
-          <span class="display-none">¿Como comprar?</span>
-          <span class="display-none">Cuenta</span>
-          <span class="display-none">Soporte</span>
-        </div>
-        <div>
-          <a href="../index.html#seccionCategorias">
-            <span class="">Categorías</span>
-          </a>
-          <a href="./categorias/vestidos.html">
-            <span class="display-none">Vestidos</span>
-          </a>
-          <a href="./categorias/pijamas.html">
-            <span class="display-none">Pijamas</span>
-          </a>
-          <a href="./categorias/zapatos.html">
-            <span class="display-none">Zapatos</span>
-          </a>
-          <a href="./categorias/conjuntos.html">
-            <span class="display-none">Conjuntos</span>
-          </a>
-        </div>
       </div>
+    </section>
 
-      <div class="footer-box2">
-        <span>Redes Sociales</span>
-        <a
-          href="https://www.instagram.com/santi_cicca/?hl=es-la"
-          class="logo-ig"
-        >
-          <i class="bi-instagram"></i>
+    <div class="container-fluid bg-dark d-flex justify-content-between align-items-center">
+
+      <p class="text-white">
+        Suscribite Aquí para recibir información de Descuentos y Promociones!
+      </p>
+
+      <div class="d-flex flex-column align-items-center">
+        <input type="email" placeholder="ejemplo@gmail.com" class="w-100 mb-1">
+        <input type="submit" value="Suscribite" class="w-50 "></input>
+      </div>
+    </div>
+  </main>
+
+  <!---------FOOTER--------->
+
+  <footer>
+    <div class="footer-box1">
+      <div>
+        <span>Acerca Dé</span>
+        <span class="display-none">Políticas de privacidad</span>
+        <span class="display-none">Términos y condiciones</span>
+      </div>
+      <div>
+        <span>Ayuda</span>
+        <span class="display-none">¿Como comprar?</span>
+        <span class="display-none">Cuenta</span>
+        <span class="display-none">Soporte</span>
+      </div>
+      <div>
+        <a href="../index.html#seccionCategorias">
+          <span class="">Categorías</span>
         </a>
-        <a href="https://wa.me/541162091490" class="logo-wsp">
-          <i class="bi-whatsapp"></i>
+        <a href="./categorias/vestidos.html">
+          <span class="display-none">Vestidos</span>
         </a>
-        <!-- no tengo cuenta de linkedin por ahora -->
-        <a href="" class="logo-Linkedin">
-          <i class="bi-linkedin"></i>
+        <a href="./categorias/pijamas.html">
+          <span class="display-none">Pijamas</span>
+        </a>
+        <a href="./categorias/zapatos.html">
+          <span class="display-none">Zapatos</span>
+        </a>
+        <a href="./categorias/conjuntos.html">
+          <span class="display-none">Conjuntos</span>
         </a>
       </div>
-    </footer>
-  </body>
+    </div>
+
+    <div class="footer-box2">
+      <span>Redes Sociales</span>
+      <a href="https://www.instagram.com/santi_cicca/?hl=es-la" class="logo-ig">
+        <i class="bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/541162091490" class="logo-wsp">
+        <i class="bi-whatsapp"></i>
+      </a>
+      <!-- no tengo cuenta de linkedin por ahora -->
+      <a href="" class="logo-Linkedin">
+        <i class="bi-linkedin"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="../js/bootstrap.js"> </script>
+</body>
+
 </html>
