@@ -798,6 +798,23 @@ footer i {
 }
 
 @media screen and (min-width: 992px) {
+  /* --------HEADER----------- */
+
+  header nav ul li a {
+    border-right: solid 1px #363739;
+  }
+
+  header nav ul li a:hover {
+    background-color: #fdddaa;
+  }
+
+  /* --------MAIN----------- */
+
+  #seccionCategorias a:hover,
+  #seccionTrending a:hover {
+    transform: scale(1.2);
+  }
+
   /* -----------FOOTER---------- */
 
   .display-none {
