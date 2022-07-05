@@ -1,0 +1,157 @@
+#seccionZapatosNene {
+  height: 750px;
+
+  background-image: url("../img/azul-pastel-background.jpg");
+  background-size: auto;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 70%;
+
+    margin-left: 10%;
+  }
+
+  h2 {
+    text-align: center;
+
+    padding: 25px;
+
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 5px;
+
+    color: white;
+    -webkit-text-stroke: 1px #544db3a9;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+
+    border: solid 3px black;
+
+    border-radius: 25px;
+
+    padding: 10px;
+    margin: 22px 25px;
+
+    width: 20%;
+
+    background-color: white;
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+
+    a {
+      border: solid 2px black;
+      padding: 5px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: paleturquoise;
+      }
+    }
+  }
+
+  .precioTachado {
+    text-decoration: line-through;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+
+#seccionZapatosNene .seccionZapatosNene__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionZapatosNene img {
+  width: 110px;
+  padding: 10px;
+}
+
+// Seccion Zapatos Nena
+
+#seccionZapatosNena {
+  height: 750px;
+
+  background-image: url("../img/rosa-pastel-background.jpg");
+  background-size: auto;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 70%;
+
+    margin-left: 10%;
+  }
+
+  h2 {
+    text-align: center;
+
+    padding: 25px;
+
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 5px;
+
+    color: white;
+    -webkit-text-stroke: 1px #544db3a9;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    overflow: hidden;
+
+    border: solid 3px black;
+
+    border-radius: 25px;
+
+    padding: 10px;
+    margin: 22px 30px;
+
+    width: 20%;
+
+    background-color: white;
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+
+    a {
+      border: solid 2px black;
+      padding: 5px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: paleturquoise;
+      }
+    }
+  }
+
+  img {
+    width: 110px;
+    padding: 10px;
+  }
+
+  .precioTachado {
+    text-decoration: line-through;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+
+#seccionZapatosNena .seccionZapatosNena__articulo5 {
+  margin-left: 0px;
+}

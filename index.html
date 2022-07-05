@@ -1,337 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>COLIBRÍ</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="./styles/bootstrap.css">
-  <link rel="stylesheet" href="./styles/style.css" />
-  <title>COLIBRÍ</title>
-</head>
+  <body id="index-body">
+    <!---------HEADER--------->
 
-<body id="index-body">
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg border-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                src="./img/logofalso3.png"
+                alt="logo en navbar"
+                class="w-25"
+            /></a>
 
-  <!---------HEADER--------->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <header>
-
-    <div>
-      <nav class="navbar navbar-expand-lg border-bottom">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img src="./img/logofalso3.png" alt="logo en navbar"
-              class="w-25"></a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link fs-4 active" href="./index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" href="./pages/sucursales.html">Sucursales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" href="./pages/contactanos.html">Contactanos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-4" href="./pages/promociones.html">Promociones</a>
-              </li>
-            </ul>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fs-4 active" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fs-4"
+                    aria-current="page"
+                    href="./pages/nosotros.html"
+                    >Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" href="./pages/sucursales.html"
+                    >Sucursales</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" href="./pages/contactanos.html"
+                    >Contactanos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4" href="./pages/promociones.html"
+                    >Promociones</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
+        </nav>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <h1>COLIBRÍ</h1>
+      </div>
+    </header>
+
+    <!-----------MAIN---------->
+
+    <main>
+      <div class="row w-100">
+        <div class="col-lg-9">
+          <section id="seccionCategorias">
+            <h2 class="container-fluid">Categorías</h2>
+
+            <div class="d-flex flex-wrap flex-sm-nowrap justify-content-around">
+              <article class="card" style="width: 8rem; margin: 10px">
+                <img
+                  src="./img/yellow-dress.png"
+                  class="card-img-top"
+                  alt="Vestido amarillo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Amarillo</h5>
+                  <span class="card-text fw-bold">$35.00</span>
+                  <a
+                    href="./pages/categorias/vestidos.html"
+                    class="btn btn-warning"
+                    >Ver Más</a
+                  >
+                </div>
+              </article>
+
+              <article class="card" style="width: 8rem; margin: 10px">
+                <img
+                  src="./img/picnic-set.png"
+                  class="card-img-top"
+                  alt="Conjunto con Corazon"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Conjunto Picnic</h5>
+                  <span class="card-text fw-bold">$40.00</span>
+                  <a
+                    href="./pages/categorias/conjuntos.html"
+                    class="btn btn-warning"
+                    >Ver Más</a
+                  >
+                </div>
+              </article>
+
+              <article class="card" style="width: 8rem; margin: 10px">
+                <img
+                  src="./img/blue-baby-shoes (2).png"
+                  class="card-img-top"
+                  alt="Zapatitos azules para hombre"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Zapatitos Azules</h5>
+                  <span class="card-text fw-bold">$25.00</span>
+                  <a
+                    href="./pages/categorias/zapatos.html"
+                    class="btn btn-warning"
+                    >Ver Más</a
+                  >
+                </div>
+              </article>
+
+              <article class="card" style="width: 8rem; margin: 10px">
+                <img
+                  src="./img/pijama-arcoiris.png"
+                  class="card-img-top"
+                  alt="Pijama Arcoiris"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pijama Arcoiris</h5>
+                  <span class="card-text fw-bold">$40.00</span>
+                  <a
+                    href="./pages/categorias/pijamas.html"
+                    class="btn btn-warning"
+                    >Ver Más</a
+                  >
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="seccionPd">
+            <h2 class="container-fluid">Productos Destacados</h2>
+
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="7"
+                  aria-label="Slide 8"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <article class="card" style="width: 25rem; height: 38rem">
+                    <img
+                      src="./img/cat-dress.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Vestido de gatitos</h5>
+                      <span class="card-text fw-bold">$35.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/black-set.jpg"
+                      class="card-img-top"
+                      alt="Conjunto Negro"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Conjunto Negro</h5>
+                      <span class="card-text fw-bold">$60.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/orne-dress.jpg"
+                      class="card-img-top"
+                      alt="vestido de ornella"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Vestido de Orne</h5>
+                      <span class="card-text fw-bold">$35.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/picnic-set.png"
+                      class="card-img-top"
+                      alt="conjunto picnic"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Conjunto Picnic</h5>
+                      <span class="card-text fw-bold">$45.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/bambi-red-pijama.jpg"
+                      class="card-img-top"
+                      alt="Pijama Cornudo"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Pijama Bambi Rojo</h5>
+                      <span class="card-text fw-bold">$55.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/penguin-boots.jpg"
+                      class="card-img-top"
+                      alt="Botas de pinguino"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Botas de pinguino</h5>
+                      <span class="card-text fw-bold">$20.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/pinkdress-cat.jpg"
+                      class="card-img-top"
+                      alt="Vestido rosa de gatos"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Vestido de gatitos rosa</h5>
+                      <span class="card-text fw-bold">$40.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="carousel-item">
+                  <article class="card" style="width: 25rem">
+                    <img
+                      src="./img/tucan-shirt.jpg"
+                      class="card-img-top"
+                      alt="Remera con tucánes"
+                    />
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Toucan Shirt</h5>
+                      <span class="card-text fw-bold">$30.00</span>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev bg-dark"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next bg-dark"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
         </div>
-      </nav>
-    </div>
 
-    <div class="d-flex align-items-center justify-content-center">
-      <h1>COLIBRÍ</h1>
-    </div>
-  </header>
+        <div class="trending col-lg-3">
+          <aside id="seccionTrending">
+            <h2>Trending</h2>
 
-  <!-----------MAIN---------->
+            <div
+              class="seccionTrending__contenedor--cards d-flex flex-wrap align-items-center justify-content-around"
+            >
+              <article class="card" style="width: 12rem; margin: 10px">
+                <img
+                  src="./img/conjunto-nene1.jpg"
+                  class="card-img-top"
+                  alt="Conjunto para nene azul"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Conjunto Picnic</h5>
+                  <span class="card-text fw-bold">$60.00</span>
+                  <a href="#" class="btn btn-warning">Ver Más</a>
+                </div>
+              </article>
 
-  <main>
-
-    <div class="row w-100">
-
-      <div class="col-lg-9">
-
-        <section id="seccionCategorias">
-
-          <h2 class="container-fluid">Categorías</h2>
-
-          <div class="d-flex flex-wrap flex-sm-nowrap justify-content-around">
-            <article class="card" style="width: 8rem; margin: 10px;">
-              <img src="./img/yellow-dress.png" class="card-img-top" alt="Vestido amarillo">
-              <div class="card-body">
-                <h5 class="card-title">Vestido Amarillo</h5>
-                <span class="card-text fw-bold">$35.00</span>
-                <a href="./pages/categorias/vestidos.html" class="btn btn-warning">Ver Más</a>
-              </div>
-            </article>
-
-            <article class="card" style="width: 8rem; margin: 10px;">
-              <img src="./img/picnic-set.png" class="card-img-top" alt="Conjunto con Corazon">
-              <div class="card-body">
-                <h5 class="card-title">Conjunto Picnic</h5>
-                <span class="card-text fw-bold">$40.00</span>
-                <a href="./pages/categorias/conjuntos.html" class="btn btn-warning">Ver Más</a>
-              </div>
-            </article>
-
-            <article class="card" style="width: 8rem; margin: 10px;">
-              <img src="./img/blue-baby-shoes (2).png" class="card-img-top" alt="Zapatitos azules para hombre">
-              <div class="card-body">
-                <h5 class="card-title">Zapatitos Azules</h5>
-                <span class="card-text fw-bold">$25.00</span>
-                <a href="./pages/categorias/zapatos.html" class="btn btn-warning">Ver Más</a>
-              </div>
-            </article>
-
-            <article class="card" style="width: 8rem; margin: 10px;">
-              <img src="./img/pijama-arcoiris.png" class="card-img-top" alt="Pijama Arcoiris">
-              <div class="card-body">
-                <h5 class="card-title">Pijama Arcoiris</h5>
-                <span class="card-text fw-bold">$40.00</span>
-                <a href="./pages/categorias/pijamas.html" class="btn btn-warning">Ver Más</a>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section id="seccionPd">
-
-          <h2 class="container-fluid">Productos Destacados</h2>
-
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                aria-label="Slide 7"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-                aria-label="Slide 8"></button>
+              <article class="card" style="width: 12rem; margin: 10px">
+                <img
+                  src="./img/bear-set.png"
+                  class="card-img-top"
+                  alt="Conjunto rosa de oso"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Conjunto rosa de oso</h5>
+                  <span class="card-text fw-bold">$65.00</span>
+                  <a href="#" class="btn btn-warning">Ver Más</a>
+                </div>
+              </article>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+          </aside>
+        </div>
+      </div>
+    </main>
 
-                <article class="card" style="width: 25rem; height: 38rem;">
-                  <img src="./img/cat-dress.jpg" class="card-img-top" alt="...">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Vestido de gatitos</h5>
-                    <span class="card-text fw-bold">$35.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
+    <!---------FOOTER--------->
 
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/black-set.jpg" class="card-img-top" alt="Conjunto Negro">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Conjunto Negro</h5>
-                    <span class="card-text fw-bold">$60.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/orne-dress.jpg" class="card-img-top" alt="vestido de ornella">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Vestido de Orne</h5>
-                    <span class="card-text fw-bold">$35.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/picnic-set.png" class="card-img-top" alt="conjunto picnic">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Conjunto Picnic</h5>
-                    <span class="card-text fw-bold">$45.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/bambi-red-pijama.jpg" class="card-img-top" alt="Pijama Cornudo">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Pijama Bambi Rojo</h5>
-                    <span class="card-text fw-bold">$55.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/penguin-boots.jpg" class="card-img-top" alt="Botas de pinguino">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Botas de pinguino</h5>
-                    <span class="card-text fw-bold">$20.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/pinkdress-cat.jpg" class="card-img-top" alt="Vestido rosa de gatos">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Vestido de gatitos rosa</h5>
-                    <span class="card-text fw-bold">$40.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-              <div class="carousel-item">
-
-                <article class="card" style="width: 25rem;">
-                  <img src="./img/tucan-shirt.jpg" class="card-img-top" alt="Remera con tucánes">
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Toucan Shirt</h5>
-                    <span class="card-text fw-bold">$30.00</span>
-                    <a href="#" class="btn btn-dark">Comprar</a>
-                  </div>
-                </article>
-
-              </div>
-            </div>
-            <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-        </section>
-
+    <footer>
+      <div class="footer-box1">
+        <div>
+          <span>Acerca Dé</span>
+          <span class="display-none">Políticas de privacidad</span>
+          <span class="display-none">Términos y condiciones</span>
+        </div>
+        <div>
+          <span>Ayuda</span>
+          <span class="display-none">¿Como comprar?</span>
+          <span class="display-none">Cuenta</span>
+          <span class="display-none">Soporte</span>
+        </div>
+        <div>
+          <a href="#seccionCategorias">
+            <span class="">Categorías</span>
+          </a>
+          <a href="./pages/categorias/vestidos.html">
+            <span class="display-none">Vestidos</span>
+          </a>
+          <a href="./pages/categorias/pijamas.html">
+            <span class="display-none">Pijamas</span>
+          </a>
+          <a href="./pages/categorias/zapatos.html">
+            <span class="display-none">Zapatos</span>
+          </a>
+          <a href="./pages/categorias/conjuntos.html">
+            <span class="display-none">Conjuntos</span>
+          </a>
+        </div>
       </div>
 
-
-      <div class="trending col-lg-3">
-
-        <aside id="seccionTrending">
-
-          <h2>Trending</h2>
-
-          <div class="seccionTrending__contenedor--cards d-flex flex-wrap align-items-center justify-content-around">
-
-            <article class="card" style="width: 12rem; margin: 10px;">
-              <img src="./img/conjunto-nene1.jpg" class="card-img-top" alt="Conjunto para nene azul">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Conjunto Picnic</h5>
-                <span class="card-text fw-bold">$60.00</span>
-                <a href="#" class="btn btn-warning">Ver Más</a>
-              </div>
-            </article>
-
-            <article class="card" style="width: 12rem; margin: 10px;">
-              <img src="./img/bear-set.png" class="card-img-top" alt="Conjunto rosa de oso">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Conjunto rosa de oso</h5>
-                <span class="card-text fw-bold">$65.00</span>
-                <a href="#" class="btn btn-warning">Ver Más</a>
-              </div>
-            </article>
-
-          </div>
-        </aside>
-
-      </div>
-
-
-    </div>
-
-  </main>
-
-  <!---------FOOTER--------->
-
-  <footer>
-    <div class="footer-box1">
-      <div>
-        <span>Acerca Dé</span>
-        <span class="display-none">Políticas de privacidad</span>
-        <span class="display-none">Términos y condiciones</span>
-      </div>
-      <div>
-        <span>Ayuda</span>
-        <span class="display-none">¿Como comprar?</span>
-        <span class="display-none">Cuenta</span>
-        <span class="display-none">Soporte</span>
-      </div>
-      <div>
-        <a href="#seccionCategorias">
-          <span class="">Categorías</span>
+      <div class="footer-box2">
+        <span>Redes Sociales</span>
+        <a
+          href="https://www.instagram.com/santi_cicca/?hl=es-la"
+          class="logo-ig"
+          target="_blank"
+        >
+          <i class="bi-instagram"></i>
         </a>
-        <a href="./pages/categorias/vestidos.html">
-          <span class="display-none">Vestidos</span>
+        <a href="https://wa.me/541162091490" class="logo-wsp" target="_blank">
+          <i class="bi-whatsapp"></i>
         </a>
-        <a href="./pages/categorias/pijamas.html">
-          <span class="display-none">Pijamas</span>
-        </a>
-        <a href="./pages/categorias/zapatos.html">
-          <span class="display-none">Zapatos</span>
-        </a>
-        <a href="./pages/categorias/conjuntos.html">
-          <span class="display-none">Conjuntos</span>
+
+        <!-- no tengo cuenta de linkedin por ahora -->
+        <a href="" class="logo-linkedin">
+          <i class="bi-linkedin"></i>
         </a>
       </div>
-    </div>
+    </footer>
 
-    <div class="footer-box2">
-      <span>Redes Sociales</span>
-      <a href="https://www.instagram.com/santi_cicca/?hl=es-la" class="logo-ig" target="_blank">
-        <i class="bi-instagram"></i>
-      </a>
-      <a href="https://wa.me/541162091490" class="logo-wsp" target="_blank">
-        <i class="bi-whatsapp"></i>
-      </a>
-
-      <!-- no tengo cuenta de linkedin por ahora -->
-      <a href="" class="logo-linkedin">
-        <i class="bi-linkedin"></i>
-      </a>
-    </div>
-  </footer>
-
-  <script src="./js/bootstrap.js"></script>
-</body>
-
+    <script src="./js/bootstrap.js"></script>
+  </body>
 </html>
