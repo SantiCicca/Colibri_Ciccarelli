@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200;400&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+
+  font-family: "Anton", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 ul,
@@ -11,10 +18,6 @@ ol {
 
 a {
   text-decoration: none;
-  color: white;
-}
-a span {
-  color: white;
 }
 
 i {
@@ -22,70 +25,33 @@ i {
   color: black;
 }
 
-* {
-  font-family: "Anton", sans-serif;
-  font-family: "Nunito", sans-serif;
-}
-
-.btn-bg-color {
-  background-color: rgb(206, 184, 17);
-}
-
-.seccionCategorias__card {
-  margin: 10px;
-  width: 8rem;
-}
-
-.seccionCategorias__card {
-  width: 12rem;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  background-color: rgb(42, 37, 37);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-footer i {
-  font-size: 1.4rem;
-}
-
-.footer-box1,
-.footer-box2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  color: white;
-}
-
-.display-none {
-  display: none;
-}
+/* ------HEADER----- */
 
 header {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fdddaa 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
+
 header div:nth-child(2) {
   height: 10vh;
 }
-header h1 {
+
+h1 {
   color: #fdddaa;
+
   font-family: "Fredoka One", cursive;
   letter-spacing: 7px;
+
   text-align: center;
 }
+
+/* -------MAIN------- */
 
 h2 {
   text-align: center;
   font-size: 1rem;
+
   background-color: #fdddaa;
+
   padding: 10px;
 }
 
@@ -123,183 +89,150 @@ aside {
   object-fit: cover;
 }
 
-#seccionTexto {
-  background-image: url(../img/azul-pastel-background.jpg);
-  width: 100%;
-  height: 100%;
+/* -----VESTIDOS.HTML------- */
+
+#seccionVestidos {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
 }
 
-#seccionConjuntosNene {
-  height: 450px;
-  background-image: url("../img/azul-pastel-background.jpg");
-  background-size: auto;
-}
-#seccionConjuntosNene div {
+.seccionVestidos__contenedor--main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 70%;
-  margin-left: 10%;
 }
-#seccionConjuntosNene h2 {
+
+#seccionVestidos h2 {
   text-align: center;
+
   padding: 25px;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
+
   color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  -webkit-text-stroke: 1px #363739;
 }
-#seccionConjuntosNene article {
+
+#seccionVestidos article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   overflow: hidden;
+
   border: solid 3px black;
   border-radius: 25px;
+
   padding: 10px;
-  margin: 22px 30px;
-  width: 20%;
+  margin: 22px;
+  width: 150px;
+
   background-color: white;
+
   font-family: "Anton", sans-serif;
-  font-weight: 400;
-}
-#seccionConjuntosNene article a {
-  border: solid 2px black;
-  padding: 5px;
-  text-decoration: none;
-}
-#seccionConjuntosNene article a:hover {
-  background-color: paleturquoise;
-}
-#seccionConjuntosNene img {
-  width: 110px;
-  padding: 10px;
-}
-#seccionConjuntosNene .precioTachado {
-  text-decoration: line-through;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-#seccionConjuntosNene .seccionConjuntosNene__articulo5 {
-  margin-left: 0px;
 }
 
-#seccionConjuntosNena {
-  height: 450px;
-  background-image: url("../img/rosa-pastel-background.jpg");
-  background-size: auto;
-}
-#seccionConjuntosNena div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 70%;
-  margin-left: 10%;
-}
-#seccionConjuntosNena h2 {
-  text-align: center;
-  padding: 25px;
-  font-family: "Anton", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 5px;
-  color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
-}
-#seccionConjuntosNena article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  overflow: hidden;
-  border: solid 3px black;
-  border-radius: 25px;
+#seccionVestidos img {
+  width: 80%;
   padding: 10px;
-  margin: 22px 30px;
-  width: 20%;
-  background-color: white;
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
+
+  object-fit: cover;
 }
-#seccionConjuntosNena article a {
+
+#seccionVestidos article a {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
 }
-#seccionConjuntosNena article a:hover {
-  background-color: paleturquoise;
+
+.seccionVestidos__contenedor--2 {
+  background-color: orange;
 }
-#seccionConjuntosNena img {
-  width: 110px;
-  padding: 10px;
+
+.seccionVestidos__contenedor--2 h3 {
+  background-color: #fdddaa;
+
+  padding: 8px;
 }
-#seccionConjuntosNena .precioTachado {
-  text-decoration: line-through;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-#seccionConjuntosNena .seccionConjuntosNene__articulo5 {
-  margin-left: 0px;
-}
+
+/* ------PIJAMAS.HTML------- */
 
 #seccionGenero {
   background-image: url("../img/seccionCategorias-wallpaper.jpg");
   background-size: auto;
 }
+
 #seccionGenero h2 {
   text-align: center;
+
   padding: 0px 25px;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   -webkit-text-stroke: 0.3px black;
   color: #fdddaa;
   letter-spacing: 1px;
 }
+
 #seccionGenero div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 #seccionGenero article {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
   overflow: hidden;
+
   margin: 20px 15px;
   padding: 0px;
+
   width: 22%;
   height: 60%;
+
   background-color: white;
-}
-#seccionGenero article img {
-  width: 100%;
-  padding: 10px;
-  object-fit: cover;
 }
 
 .seccionGenero__articulo--nene h3 {
   font-size: 1rem;
-  -webkit-text-stroke: 0.001px rgba(84, 77, 179, 0.662745098);
+
+  -webkit-text-stroke: 0.001px #544db3a9;
   color: black;
 }
 
 .seccionGenero__articulo--nena h3 {
   font-size: 1rem;
-  -webkit-text-stroke: 0.001px rgba(208, 111, 155, 0.6941176471);
+
+  -webkit-text-stroke: 0.001px #d06f9bb1;
   color: black;
+}
+
+#seccionGenero article img {
+  width: 100%;
+  padding: 10px;
+
+  object-fit: cover;
 }
 
 .seccionGenero__boton--verMas {
   border: solid 1px black;
+
   width: 80%;
+
   text-align: center;
   text-decoration: none;
 }
+
 .seccionGenero__boton--verMas:hover {
   background-image: url("../img/seccionCategorias-wallpaper.jpg");
+
   background-size: cover;
 }
 
@@ -311,19 +244,26 @@ aside {
   box-shadow: 0px 0px 15px 0px #d06f9b;
 }
 
+/* SECCION PIJAMAS NENE */
+
 #seccionPijamasNene {
   background-image: url("../img/azul-pastel-background.jpg");
   background-size: auto;
 }
+
 #seccionPijamasNene h2 {
   text-align: center;
+
   padding: 15px 0;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
+
   color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  -webkit-text-stroke: 1px #544db3a9;
 }
+
 #seccionPijamasNene div {
   display: flex;
   flex-direction: row;
@@ -331,25 +271,33 @@ aside {
   align-items: center;
   flex-wrap: wrap;
 }
+
 #seccionPijamasNene article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
   border: solid 3px black;
   border-radius: 20px;
+
   width: 30%;
   padding: 10px;
   margin: 10px;
+
   background-color: white;
+
   font-family: "Anton", sans-serif;
   font-weight: 400;
 }
+
 #seccionPijamasNene article img {
   width: 110px;
   padding: 10px;
+
   object-fit: cover;
 }
+
 #seccionPijamasNene article a {
   border: solid 2px black;
   padding: 5px;
@@ -361,19 +309,26 @@ aside {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/* SECCION PIJAMAS NENA */
+
 #seccionPijamasNena {
   background-image: url("../img/rosa-pastel-background.jpg");
   background-size: auto;
 }
+
 #seccionPijamasNena h2 {
   text-align: center;
+
   padding: 15px 0;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
+
   color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  -webkit-text-stroke: 1px #544db3a9;
 }
+
 #seccionPijamasNena div {
   display: flex;
   flex-direction: row;
@@ -381,25 +336,33 @@ aside {
   align-items: center;
   flex-wrap: wrap;
 }
+
 #seccionPijamasNena article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
   border: solid 3px black;
   border-radius: 20px;
+
   width: 30%;
   padding: 10px;
   margin: 10px;
+
   background-color: white;
+
   font-family: "Anton", sans-serif;
   font-weight: 400;
 }
+
 #seccionPijamasNena article img {
   width: 110px;
   padding: 10px;
+
   object-fit: cover;
 }
+
 #seccionPijamasNena article a {
   border: solid 2px black;
   padding: 5px;
@@ -411,19 +374,26 @@ aside {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/* SECCION PIJAMAS UNISEX */
+
 #seccionPijamasUnisex {
   background-image: url("../img/verde-pastel-background.jpg");
   background-size: auto;
 }
+
 #seccionPijamasUnisex h2 {
   text-align: center;
+
   padding: 15px 0;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
+
   color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  -webkit-text-stroke: 1px #544db3a9;
 }
+
 #seccionPijamasUnisex div {
   display: flex;
   flex-direction: row;
@@ -431,25 +401,33 @@ aside {
   align-items: center;
   flex-wrap: wrap;
 }
+
 #seccionPijamasUnisex article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
   border: solid 3px black;
   border-radius: 20px;
+
   width: 30%;
   padding: 10px;
   margin: 10px;
+
   background-color: white;
+
   font-family: "Anton", sans-serif;
   font-weight: 400;
 }
+
 #seccionPijamasUnisex article img {
   width: 110px;
   padding: 10px;
+
   object-fit: cover;
 }
+
 #seccionPijamasUnisex article a {
   border: solid 2px black;
   padding: 5px;
@@ -461,106 +439,60 @@ aside {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#seccionVestidos {
-  background-image: url("../img/seccionCategorias-wallpaper.jpg");
-}
-#seccionVestidos h2 {
-  text-align: center;
-  padding: 25px;
-  font-family: "Anton", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 5px;
-  color: white;
-  -webkit-text-stroke: 1px #363739;
-}
-#seccionVestidos article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  overflow: hidden;
-  border: solid 3px black;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 22px;
-  width: 150px;
-  background-color: white;
-  font-family: "Anton", sans-serif;
-}
-#seccionVestidos article a {
-  border: solid 2px black;
-  padding: 5px;
-  text-decoration: none;
-}
-#seccionVestidos img {
-  width: 80%;
-  padding: 10px;
-  object-fit: cover;
-}
-
-.seccionVestidos__contenedor--main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.seccionVestidos__contenedor--2 {
-  background-color: orange;
-}
-.seccionVestidos__contenedor--2 h3 {
-  background-color: #fdddaa;
-  padding: 8px;
-}
+/* -------ZAPATOS.HTML------- */
 
 #seccionZapatosNene {
   height: 750px;
+
   background-image: url("../img/azul-pastel-background.jpg");
   background-size: auto;
 }
+
 #seccionZapatosNene div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+
   width: 70%;
+
   margin-left: 10%;
 }
+
 #seccionZapatosNene h2 {
   text-align: center;
+
   padding: 25px;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
+
   color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  -webkit-text-stroke: 1px #544db3a9;
 }
+
 #seccionZapatosNene article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
   overflow: hidden;
+
   border: solid 3px black;
+
   border-radius: 25px;
+
   padding: 10px;
   margin: 22px 25px;
+
   width: 20%;
+
   background-color: white;
+
   font-family: "Anton", sans-serif;
   font-weight: 400;
-}
-#seccionZapatosNene article a {
-  border: solid 2px black;
-  padding: 5px;
-  text-decoration: none;
-}
-#seccionZapatosNene article a:hover {
-  background-color: paleturquoise;
-}
-#seccionZapatosNene .precioTachado {
-  text-decoration: line-through;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #seccionZapatosNene .seccionZapatosNene__articulo5 {
@@ -572,62 +504,293 @@ aside {
   padding: 10px;
 }
 
+#seccionZapatosNene article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionZapatosNene article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionZapatosNene .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*  SECCION ZAPATOS NENA */
+
 #seccionZapatosNena {
   height: 750px;
+
   background-image: url("../img/rosa-pastel-background.jpg");
   background-size: auto;
 }
+
 #seccionZapatosNena div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+
   width: 70%;
+
   margin-left: 10%;
 }
+
 #seccionZapatosNena h2 {
   text-align: center;
+
   padding: 25px;
+
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
+
   color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  -webkit-text-stroke: 1px #544db3a9;
 }
+
 #seccionZapatosNena article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+
   overflow: hidden;
+
   border: solid 3px black;
+
   border-radius: 25px;
+
   padding: 10px;
   margin: 22px 30px;
+
   width: 20%;
+
   background-color: white;
+
   font-family: "Anton", sans-serif;
   font-weight: 400;
 }
+
+#seccionZapatosNena .seccionZapatosNena__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionZapatosNena img {
+  width: 110px;
+  padding: 10px;
+}
+
 #seccionZapatosNena article a {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
 }
+
 #seccionZapatosNena article a:hover {
   background-color: paleturquoise;
 }
-#seccionZapatosNena img {
-  width: 110px;
-  padding: 10px;
-}
+
 #seccionZapatosNena .precioTachado {
   text-decoration: line-through;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#seccionZapatosNena .seccionZapatosNena__articulo5 {
+/* --------CONJUNTOS.HTML------- */
+
+#seccionConjuntosNene {
+  height: 450px;
+
+  background-image: url("../img/azul-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionConjuntosNene div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionConjuntosNene h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionConjuntosNene article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px 30px;
+
+  width: 20%;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionConjuntosNene .seccionConjuntosNene__articulo5 {
   margin-left: 0px;
+}
+
+#seccionConjuntosNene img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionConjuntosNene article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionConjuntosNene article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionConjuntosNene .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* SECCION CONJUNTOS NENA */
+
+#seccionConjuntosNena {
+  height: 450px;
+
+  background-image: url("../img/rosa-pastel-background.jpg");
+  background-size: auto;
+}
+
+#seccionConjuntosNena div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 70%;
+
+  margin-left: 10%;
+}
+
+#seccionConjuntosNena h2 {
+  text-align: center;
+
+  padding: 25px;
+
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+
+  color: white;
+  -webkit-text-stroke: 1px #544db3a9;
+}
+
+#seccionConjuntosNena article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+
+  border: solid 3px black;
+
+  border-radius: 25px;
+
+  padding: 10px;
+  margin: 22px 30px;
+
+  width: 20%;
+
+  background-color: white;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
+#seccionConjuntosNena .seccionConjuntosNena__articulo5 {
+  margin-left: 0px;
+}
+
+#seccionConjuntosNena img {
+  width: 110px;
+  padding: 10px;
+}
+
+#seccionConjuntosNena article a {
+  border: solid 2px black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#seccionConjuntosNena article a:hover {
+  background-color: paleturquoise;
+}
+
+#seccionConjuntosNena .precioTachado {
+  text-decoration: line-through;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(42, 37, 37);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-box1 a {
+  color: white;
+}
+
+.footer-box1,
+.footer-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+
+  color: white;
+}
+
+.display-none {
+  display: none;
+}
+
+footer i {
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -698,5 +861,3 @@ aside {
     text-align: center;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
