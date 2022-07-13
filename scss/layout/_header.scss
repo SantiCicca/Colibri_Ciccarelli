@@ -1,5 +1,9 @@
 header {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(
+    to top,
+    #{$main-gradient-color} 0%,
+    #{$main-color} 100%
+  );
 
   div:nth-child(2) {
     height: 10vh;

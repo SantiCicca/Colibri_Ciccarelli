@@ -1,0 +1,14 @@
+%card {
+  margin: 10px;
+  width: 8rem;
+}
+
+.seccionCategorias__card {
+  @extend %card;
+
+  width: 12rem;
+}
+
+.card-body {
+  @include d-flex-card;
+}

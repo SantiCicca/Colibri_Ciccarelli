@@ -27,6 +27,24 @@ i {
   font-family: "Nunito", sans-serif;
 }
 
+.btn-bg-color {
+  background-color: rgb(206, 184, 17);
+}
+
+.seccionCategorias__card {
+  margin: 10px;
+  width: 8rem;
+}
+
+.seccionCategorias__card {
+  width: 12rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   background-color: rgb(42, 37, 37);
   display: flex;
@@ -52,7 +70,7 @@ footer i {
 }
 
 header {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fdddaa 100%);
 }
 header div:nth-child(2) {
   height: 10vh;
