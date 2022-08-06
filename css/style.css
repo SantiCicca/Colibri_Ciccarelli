@@ -129,8 +129,72 @@ aside {
   height: 100%;
 }
 
+#seccionGenero {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
+  background-size: auto;
+}
+#seccionGenero h2 {
+  text-align: center;
+  padding: 0px 25px;
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 1px;
+}
+#seccionGenero div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#seccionGenero article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 20px 15px;
+  padding: 0px;
+  width: 200px;
+  height: 60%;
+  background-color: white;
+}
+#seccionGenero article img {
+  width: 100%;
+  padding: 10px;
+  object-fit: cover;
+}
+#seccionGenero .seccionGenero__articulo--nene h3 {
+  font-size: 1rem;
+  -webkit-text-stroke: 0.001px rgba(84, 77, 179, 0.662745098);
+  color: black;
+}
+#seccionGenero .seccionGenero__articulo--nena h3 {
+  font-size: 1rem;
+  -webkit-text-stroke: 0.001px rgba(208, 111, 155, 0.6941176471);
+  color: black;
+}
+#seccionGenero .seccionGenero__boton--verMas {
+  border: solid 1px black;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+#seccionGenero .seccionGenero__boton--verMas:hover {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
+  background-size: cover;
+}
+#seccionGenero .seccionGenero__nene {
+  box-shadow: 0px 0px 15px 0px #544db3;
+}
+#seccionGenero .seccionGenero__nena {
+  box-shadow: 0px 0px 15px 0px #d06f9b;
+}
+
 #seccionConjuntosNene {
-  height: 450px;
+  height: fit-content;
   background-image: url("../img/azul-pastel-background.jpg");
   background-size: auto;
 }
@@ -147,21 +211,20 @@ aside {
   padding: 25px;
   font-family: "Anton", sans-serif;
   font-size: 2rem;
-  letter-spacing: 5px;
-  color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  color: black;
 }
 #seccionConjuntosNene article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   overflow: hidden;
   border: solid 3px black;
   border-radius: 25px;
   padding: 10px;
   margin: 22px 30px;
-  width: 20%;
+  width: 200px;
   background-color: white;
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -170,6 +233,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 #seccionConjuntosNene article a:hover {
   background-color: paleturquoise;
@@ -187,7 +251,7 @@ aside {
 }
 
 #seccionConjuntosNena {
-  height: 450px;
+  height: fit-content;
   background-image: url("../img/rosa-pastel-background.jpg");
   background-size: auto;
 }
@@ -204,21 +268,20 @@ aside {
   padding: 25px;
   font-family: "Anton", sans-serif;
   font-size: 2rem;
-  letter-spacing: 5px;
-  color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  color: black;
 }
 #seccionConjuntosNena article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   overflow: hidden;
   border: solid 3px black;
   border-radius: 25px;
   padding: 10px;
   margin: 22px 30px;
-  width: 20%;
+  width: 200px;
   background-color: white;
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -227,6 +290,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 #seccionConjuntosNena article a:hover {
   background-color: paleturquoise;
@@ -241,74 +305,6 @@ aside {
 }
 #seccionConjuntosNena .seccionConjuntosNene__articulo5 {
   margin-left: 0px;
-}
-
-#seccionGenero {
-  background-image: url("../img/seccionCategorias-wallpaper.jpg");
-  background-size: auto;
-}
-#seccionGenero h2 {
-  text-align: center;
-  padding: 0px 25px;
-  font-family: "Anton", sans-serif;
-  font-size: 2rem;
-  -webkit-text-stroke: 0.3px black;
-  color: #fdddaa;
-  letter-spacing: 1px;
-}
-#seccionGenero div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-#seccionGenero article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  overflow: hidden;
-  margin: 20px 15px;
-  padding: 0px;
-  width: 22%;
-  height: 60%;
-  background-color: white;
-}
-#seccionGenero article img {
-  width: 100%;
-  padding: 10px;
-  object-fit: cover;
-}
-
-.seccionGenero__articulo--nene h3 {
-  font-size: 1rem;
-  -webkit-text-stroke: 0.001px rgba(84, 77, 179, 0.662745098);
-  color: black;
-}
-
-.seccionGenero__articulo--nena h3 {
-  font-size: 1rem;
-  -webkit-text-stroke: 0.001px rgba(208, 111, 155, 0.6941176471);
-  color: black;
-}
-
-.seccionGenero__boton--verMas {
-  border: solid 1px black;
-  width: 80%;
-  text-align: center;
-  text-decoration: none;
-}
-.seccionGenero__boton--verMas:hover {
-  background-image: url("../img/seccionCategorias-wallpaper.jpg");
-  background-size: cover;
-}
-
-.seccionGenero__nene {
-  box-shadow: 0px 0px 15px 0px #544db3;
-}
-
-.seccionGenero__nena {
-  box-shadow: 0px 0px 15px 0px #d06f9b;
 }
 
 #seccionPijamasNene {
@@ -336,9 +332,10 @@ aside {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  overflow: hidden;
   border: solid 3px black;
   border-radius: 20px;
-  width: 30%;
+  width: 200px;
   padding: 10px;
   margin: 10px;
   background-color: white;
@@ -354,6 +351,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 
 #seccionPijamasNene .precioTachado {
@@ -386,9 +384,10 @@ aside {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  overflow: hidden;
   border: solid 3px black;
   border-radius: 20px;
-  width: 30%;
+  width: 200px;
   padding: 10px;
   margin: 10px;
   background-color: white;
@@ -404,6 +403,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 
 #seccionPijamasNena .precioTachado {
@@ -436,9 +436,10 @@ aside {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  overflow: hidden;
   border: solid 3px black;
   border-radius: 20px;
-  width: 30%;
+  width: 200px;
   padding: 10px;
   margin: 10px;
   background-color: white;
@@ -454,6 +455,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 
 #seccionPijamasUnisex .precioTachado {
@@ -491,6 +493,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 #seccionVestidos img {
   width: 80%;
@@ -514,7 +517,7 @@ aside {
 }
 
 #seccionZapatosNene {
-  height: 750px;
+  height: fit-content;
   background-image: url("../img/azul-pastel-background.jpg");
   background-size: auto;
 }
@@ -532,20 +535,20 @@ aside {
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
-  color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  color: black;
 }
 #seccionZapatosNene article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   overflow: hidden;
   border: solid 3px black;
   border-radius: 25px;
   padding: 10px;
   margin: 22px 25px;
-  width: 20%;
+  width: 200px;
   background-color: white;
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -554,6 +557,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 #seccionZapatosNene article a:hover {
   background-color: paleturquoise;
@@ -573,7 +577,7 @@ aside {
 }
 
 #seccionZapatosNena {
-  height: 750px;
+  height: fit-content;
   background-image: url("../img/rosa-pastel-background.jpg");
   background-size: auto;
 }
@@ -591,20 +595,20 @@ aside {
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 5px;
-  color: white;
-  -webkit-text-stroke: 1px rgba(84, 77, 179, 0.662745098);
+  color: black;
 }
 #seccionZapatosNena article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   overflow: hidden;
   border: solid 3px black;
   border-radius: 25px;
   padding: 10px;
   margin: 22px 30px;
-  width: 20%;
+  width: 200px;
   background-color: white;
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -613,6 +617,7 @@ aside {
   border: solid 2px black;
   padding: 5px;
   text-decoration: none;
+  color: black;
 }
 #seccionZapatosNena article a:hover {
   background-color: paleturquoise;
@@ -628,6 +633,11 @@ aside {
 
 #seccionZapatosNena .seccionZapatosNena__articulo5 {
   margin-left: 0px;
+}
+
+#seccionContacto {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 992px) {
@@ -646,6 +656,16 @@ aside {
   #seccionCategorias a:hover,
   #seccionTrending a:hover {
     transform: scale(1.2);
+  }
+
+  #seccionContacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .seccionContacto__contenedor--form {
+    border-right: solid 2px #fbc2eb;
   }
 
   /* -----------FOOTER---------- */

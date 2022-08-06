@@ -1,11 +1,14 @@
+
 $main-color: #fdddaa;
 $main-gradient-color: #a18cd1;
 $secondary-color: #fbc2eb;
 
+// map
 $cards-btn: (
   btn-warning: rgb(206, 184, 17),
 );
 
+// mixin
 @mixin d-flex-card {
   display: flex;
   flex-direction: column;

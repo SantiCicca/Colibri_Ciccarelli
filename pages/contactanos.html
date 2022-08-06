@@ -62,44 +62,52 @@
   <!-- MAIN -->
 
   <main class="bg-warning">
+    <h2>CONTACTO</h2>
     <section id="seccionContacto">
-      <h2>CONTACTO</h2>
+      <div class="seccionContacto__contenedor--form">
+        <form class="d-flex flex-column p-3">
+          <label for="campo-nombre">Nombre y Apellido</label>
+          <input type="text" />
 
-      <form class="d-flex flex-column p-3">
-        <label for="campo-nombre">Nombre y Apellido</label>
-        <input type="text" style="width: 20%" />
+          <label for="campo-edad">EDAD</label>
+          <input type="number" />
 
-        <label for="campo-edad">EDAD</label>
-        <input type="number" style="width: 20%" />
+          <label for="campo-dni">DNI</label>
+          <input type="number" />
 
-        <label for="campo-dni">DNI</label>
-        <input type="number" style="width: 20%" />
+          <label for="campo-tel">TELEFONO</label>
+          <input type="tel" />
 
-        <label for="campo-tel">TELEFONO</label>
-        <input type="tel" style="width: 20%" />
+          <label for="campo-pais">LOCALIDAD</label>
+          <select name="selección de región" id="campoPais">
+            <option value="">Argentina</option>
+            <option value="">Paraguay</option>
+            <option value="">Colombia</option>
+            <option value="">Venezuela</option>
+            <option value="">Brasil</option>
+            <option value="">Uruguay</option>
+            <option value="">Peru</option>
+            <option value="">Bolivia</option>
+            <option value="">Chile</option>
+            <option value="">Ecuador</option>
+          </select>
 
-        <label for="campo-pais">LOCALIDAD</label>
-        <select name="selección de región" id="" style="width: 20%">
-          <option value="">Argentina</option>
-          <option value="">Paraguay</option>
-          <option value="">Colombia</option>
-          <option value="">Venezuela</option>
-          <option value="">Brasil</option>
-          <option value="">Uruguay</option>
-          <option value="">Peru</option>
-          <option value="">Bolivia</option>
-          <option value="">Chile</option>
-          <option value="">Ecuador</option>
-        </select>
+          <label for="campo-sugerencias">SUGERENCIA/OPINION</label>
+          <textarea name="Texto para sugerir o dar opinion" id="seccionContacto__textarea" cols="30" rows="10"
+            style="width: 50%" class="mt-2 mb-2 text-center">
+            </textarea>
 
-        <textarea name="Texto para sugerir o dar opinion" id="" cols="30" rows="10" style="width: 30%"
-          class="mt-2 mb-2 text-center">
-          Sugerencia/Opiniones</textarea>
+          <input type="submit" style="width: 30%" class="mb-2" />
+          <input type="reset" style="width: 30%" />
+        </form>
+      </div>
 
-        <input type="submit" style="width: 30%" class="mb-2" />
-        <input type="reset" style="width: 30%" />
-      </form>
+      <div class="seccionContacto__contenedor--banner">
+        <img src="../img/banner-contactanos.jpg" alt="banner de seccion Contactanos">
+      </div>
     </section>
+
+
   </main>
 
   <!---------FOOTER--------->

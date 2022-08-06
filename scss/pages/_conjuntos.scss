@@ -1,5 +1,79 @@
+#seccionGenero {
+  background-image: url("../img/seccionCategorias-wallpaper.jpg");
+  background-size: auto;
+
+  h2 {
+    text-align: center;
+    padding: 0px 25px;
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+
+    color: black;
+    letter-spacing: 1px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 20px 15px;
+    padding: 0px;
+    width: 200px;
+    height: 60%;
+    background-color: white;
+
+    img {
+      width: 100%;
+      padding: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .seccionGenero__articulo--nene h3 {
+    font-size: 1rem;
+    -webkit-text-stroke: 0.001px rgba(84, 77, 179, 0.662745098);
+    color: black;
+  }
+
+  .seccionGenero__articulo--nena h3 {
+    font-size: 1rem;
+    -webkit-text-stroke: 0.001px rgba(208, 111, 155, 0.6941176471);
+    color: black;
+  }
+
+  .seccionGenero__boton--verMas {
+    border: solid 1px black;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    &:hover {
+      background-image: url("../img/seccionCategorias-wallpaper.jpg");
+      background-size: cover;
+    }
+  }
+
+  .seccionGenero__nene {
+    box-shadow: 0px 0px 15px 0px #544db3;
+  }
+
+  .seccionGenero__nena {
+    box-shadow: 0px 0px 15px 0px #d06f9b;
+  }
+}
+
 #seccionConjuntosNene {
-  height: 450px;
+  height: fit-content;
 
   background-image: url("../img/azul-pastel-background.jpg");
   background-size: auto;
@@ -22,10 +96,8 @@
 
     font-family: "Anton", sans-serif;
     font-size: 2rem;
-    letter-spacing: 5px;
 
-    color: white;
-    -webkit-text-stroke: 1px #544db3a9;
+    color: black;
   }
 
   article {
@@ -33,6 +105,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 
     overflow: hidden;
 
@@ -43,7 +116,7 @@
     padding: 10px;
     margin: 22px 30px;
 
-    width: 20%;
+    width: 200px;
 
     background-color: white;
 
@@ -54,7 +127,7 @@
       border: solid 2px black;
       padding: 5px;
       text-decoration: none;
-
+      color: black;
       &:hover {
         background-color: paleturquoise;
       }
@@ -76,10 +149,8 @@
   }
 }
 
-// Seccion Conjuntos Nena
-
 #seccionConjuntosNena {
-  height: 450px;
+  height: fit-content;
 
   background-image: url("../img/rosa-pastel-background.jpg");
   background-size: auto;
@@ -102,10 +173,8 @@
 
     font-family: "Anton", sans-serif;
     font-size: 2rem;
-    letter-spacing: 5px;
 
-    color: white;
-    -webkit-text-stroke: 1px #544db3a9;
+    color: black;
   }
 
   article {
@@ -113,6 +182,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 
     overflow: hidden;
 
@@ -123,7 +193,7 @@
     padding: 10px;
     margin: 22px 30px;
 
-    width: 20%;
+    width: 200px;
 
     background-color: white;
 
@@ -134,7 +204,7 @@
       border: solid 2px black;
       padding: 5px;
       text-decoration: none;
-
+      color: black;
       &:hover {
         background-color: paleturquoise;
       }
