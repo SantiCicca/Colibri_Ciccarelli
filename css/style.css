@@ -485,7 +485,7 @@ aside {
   border-radius: 25px;
   padding: 10px;
   margin: 22px;
-  width: 150px;
+  width: 200px;
   background-color: white;
   font-family: "Anton", sans-serif;
 }
@@ -504,16 +504,35 @@ aside {
 .seccionVestidos__contenedor--main {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccionVestidos__contenedor--1 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccionVestidos__contenedor--2 {
   background-color: orange;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .seccionVestidos__contenedor--2 h3 {
   background-color: #fdddaa;
   padding: 8px;
+  width: 100%;
 }
 
 #seccionZapatosNene {
