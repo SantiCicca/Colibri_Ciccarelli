@@ -1,4 +1,18 @@
 #seccionContacto {
   display: flex;
   flex-direction: row;
+
+  div {
+    form {
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.seccionContacto__contenedor--banner {
+  img {
+    display: none;
+  }
 }
